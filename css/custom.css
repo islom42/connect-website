@@ -5,6 +5,22 @@
         max-width: 1140px;
     }
 }
+.section__title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #383B61;
+  line-height: 1.2;
+}
+.section__subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  color: #21bf73;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
 /* Navbar styles */
 .navbar-brand{
     font-family: "Montserat", sans-serif;
@@ -107,6 +123,15 @@
     background-color: #3498db;
     border: 2px solid #3498db !important;
 }
+.home p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    color: #818198;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /* /Home styles */
 
 /* About styles */
@@ -159,5 +184,74 @@
 }
 
 /* /Results styles */
+
+/* Review styles */
+.reviews__container {
+  background-color: #f0f5f9;
+  padding: 100px 50px;
+}
+/* Review styles */
+
+/* Pricing styles */
+.pricing {
+  padding: 100px 0;
+}
+.pricing__card {
+  background-color: #f0f5f9;
+}
+/* Pricing styles */
+
+/* FAQ styles */
+.faq__container {
+  background-color: #f0f5f9;
+  padding: 100px 50px;
+}
+/* FAQ styles */
+
+/* Start trial styles */
+.start-trial {
+  padding-top: 100px;
+}
+.start-trial .input-group{
+  padding-top: 35px;
+}
+.input-group input {
+  color: #222222;
+  font-family: 'Montserrat';
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  background-color: #F0F5F8;
+  outline: none;
+  padding: 0 75px 0 20px;
+  box-shadow: 0 5px 30px rgb(255 255 255 / 10%);
+}
+.input-group button {
+    height: 45px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    margin-left: -35px;
+    padding: 0 25px 0 25px;
+    background: #21bf73;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 5px 30px rgb(255 255 255 / 5%);
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+}
+/* Start trial styles */
+
+
+
 
 
